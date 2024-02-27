@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon dist/app.mjs",
+    "build:client":"esbuild hydrate.jsx --bundle --outfile=public/app.js",
+    "build:server": "babel root/App.jsx --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

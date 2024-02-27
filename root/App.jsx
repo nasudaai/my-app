@@ -9,6 +9,11 @@ export default function App() {
       </head>
       <body>
         <h1>server component</h1>
+        <p>react component</p>
+        <ul>
+          <li>12</li>
+          <li>34</li>
+        </ul>
       </body>
     </html>
   )
